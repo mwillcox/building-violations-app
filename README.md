@@ -6,6 +6,6 @@ Steps to run:
 
 1. Download and unzip folder into your home directory
 
-2. cd into building-violations-app
+2. cd into 'building-violations-app-master'
 
 3. Run ` rails db:create `, `rails db:seed`, `rails db:migrate` followed by ` rails s ` to start up the application.
