@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  category: MyString
+  date: 2017-04-06 17:07:55
+  date_closed: 2017-04-06 17:07:55
+  type: 
+
+two:
+  category: MyString
+  date: 2017-04-06 17:07:55
+  date_closed: 2017-04-06 17:07:55
+  type: 

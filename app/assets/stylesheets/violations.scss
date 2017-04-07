@@ -1,0 +1,58 @@
+// Place all the styles related to the Violations controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+	font-family: 'Rubik', sans-serif;
+	background: url('stardust.png');
+	text-align: center;
+}
+
+.container{
+	max-width:m 1500px;
+	margin: 20px auto;
+	width: 90%;
+}
+
+header{
+	width: 30%;
+	padding: 10px 15px 25px 15px;
+	margin: 30px auto;
+	border-radius: 25px;
+	background: #ffffff;
+}
+
+h1{
+	color: rgba(200,0,0, 0.8);
+	font-family: 'Roboto Slab', serif;
+}
+
+.subheader{
+	font-style: italic;
+}
+
+.category-stats-container{
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.category-stats{
+	background: rgba(225,225,225,0.4);
+	width: 20%;
+	padding: 25px;
+	margin: 10px;
+}
+
+.fa{
+	font-size: 2em!important;
+}
+
+.heading{
+	color: rgba(200,0,0, 0.7);
+	font-size: 20px;
+}
+
+.category-stats p{
+	font-size: 14px;
+}

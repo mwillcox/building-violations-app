@@ -1,0 +1,18 @@
+<div class="container">
+	<header>
+		<h1>Building Violations</h1>
+		<span class="subheader">Organized by Category</span>
+	</header>
+	<div class="category-stats-container">
+		<% @stats.each do |stat| %>
+			<div class="category-stats">
+				<p><i class="fa fa-bullhorn" aria-hidden="true"></i></p>
+				<span class="heading"><%= stat[:name] %></span>
+				<p>Number of Violations: <%= stat[:count] %></p>
+				<p>Earliest Violation: <%= stat[:earliest_date] %></p>
+				<p>Latest Violation: <%= stat[:latest_date] %></p>
+			</div>
+		<% end %>
+	</div>
+</div>
+
