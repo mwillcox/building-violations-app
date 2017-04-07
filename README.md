@@ -8,4 +8,4 @@ Steps to run:
 
 2. cd into building-violations-app
 
-3. Run ` rails db:create `, `rails db:seed`, followed by ` rails s ` to start up the application.
+3. Run ` rails db:create `, `rails db:seed`, `rails db:migrate` followed by ` rails s ` to start up the application.
